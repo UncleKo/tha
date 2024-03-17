@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "UniversNextPro-Light";
+  src: url("/fonts/UniversNextPro-Light.woff") format("woff"), url("/fonts/UniversNextPro-Light.ttf") format("truetype"),
+    url("/fonts/UniversNextPro-Light.oft") format("opentype");
+  // src: url('webfonts/258C67_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/258C67_0_0.woff') format('woff'),url('webfonts/258C67_0_0.ttf') format('truetype');
+}
+
+@media only screen and (max-width: 767px) {
+  @font-face {
+    font-family: "UniversNextPro-Light";
+    src: url("/fonts/UniversNextPro-Light.woff") format("woff"), url("/fonts/UniversNextPro-Light.ttf") format("truetype"),
+      url("/fonts/UniversNextPro-Light.oft") format("opentype");
+    // src: url('webfonts/258C67_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/258C67_0_0.woff') format('woff'),url('webfonts/258C67_0_0.ttf') format('truetype');
+  }
+}
+
+@import "sass/base";
+@import "sass/layout";
+@import "sass/aside";
+@import "sass/projects";
+@import "sass/typography";
+@import "sass/blog";

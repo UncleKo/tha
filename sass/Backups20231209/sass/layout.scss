@@ -1,0 +1,232 @@
+
+aside {
+  float: left;
+}
+
+.container {
+  text-align: left;
+  max-width: 960px;
+  min-width: 300px;
+  position: relative;
+  margin: 0 auto;
+  padding: 10px;
+  min-height: 100%;
+}
+
+.mainContent {
+  // min-height: 340px;
+  margin: 90px 0 0 310px;
+  padding: 0;
+}
+
+@media only screen and (min-width: 798px) {
+  #projectsContent,
+  // .contact .mainContent,
+  .services .mainContent {
+    margin: 290px 0 0 310px;
+  }
+}
+@media only screen and (min-width: 798px) and (max-width: 1919px) {
+  #projectsContent {
+    margin: 90px 0 0 310px;
+  }
+  .test-slide .mainContent,
+  .single-project .mainContent {
+    margin: 0 0 0 310px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  #projectsContent {
+    margin: 10px 0 0 310px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (orientation: landscape) {
+  .services .mainContent {
+    margin: 50px 0 0 310px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (orientation: landscape) {
+  .profile .mainContent {
+    margin: 90px 0 0 310px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .contact .mainContent {
+    margin: 90px 0 0 310px;
+  }
+}
+
+.blogContent,
+.singleContent,
+#archiveContent {
+  // min-height:530px;
+  margin: 90px 0 0 310px;
+  padding: 0;
+}
+
+.core {
+  position: relative;
+  overflow: hidden;
+  // min-height: 218px; border: 1px solid #fff;
+  margin: 0;
+  padding: 0 10px;
+}
+
+// #projectsContent .core,
+.blogContent .core,
+.singleContent .core,
+#archiveContent .core {
+  min-height: 430px;
+}
+
+@media only screen and (max-width: 798px) {
+  .core {
+    margin-top: 10px;
+  }
+  .blog .core,
+  .single-post .core {
+    margin-top: 0;
+  }
+}
+
+#company-info {
+  float: left;
+  // text-align:center;
+  background: rgba(255, 255, 255, 0.8);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px #999;
+  -moz-box-shadow: inset 0 0 5px #999;
+  box-shadow: inset 0 0 5px #999;
+  font-size: 1.1em;
+  line-height: 1.5;
+  width: 280px;
+  margin: 20px 10px 0 0;
+  padding: 15px 20px;
+}
+
+.addthis_toolbox {
+  margin-top: 25px;
+}
+
+#about-us {
+  margin-top: 10px;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0 10px;
+}
+
+.not-vs-are {
+  width: 100%;
+  font-size: 1.4em;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 40px auto;
+}
+
+.not-vs-are th {
+  font-weight: normal;
+  height: 50px;
+  font-size: 1.3em;
+  padding-left: 10px;
+}
+
+.not-vs-are th span {
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 0 3px;
+}
+
+.not-vs-are td {
+  height: 25px;
+  width: 50%;
+  padding: 5px 0 5px 10px;
+  font-size: 1.3em;
+}
+
+.not-vs-are td:first-child,
+.not-vs-are th:first-child {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.not-vs-are tr:last-child td {
+  padding-bottom: 10px;
+}
+
+.not-vs-are td span {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #fff;
+  font-weight: normal;
+  margin: 10px 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 798px) {
+  .mainContent,
+  #projectsContent,
+  .blogContent,
+  .singleContent,
+  .contact .mainContent,
+  #archiveContent {
+    float: left;
+    width: 100%;
+    margin: 5px 20px 0 0;
+  }
+
+  // .widgets {
+  //   margin-top: 105px;
+  // }
+
+  #categories-menu {
+    top: 274px;
+    left: 316px;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 768px) {
+  #company-info {
+    float: none;
+    margin-left: 300px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mainContent,
+  #projectsContent,
+  .blogContent,
+  .singleContent,
+  .contact .mainContent {
+    margin-right: 0;
+  }
+
+  .home .main-menu {
+    margin-left: 100px;
+  }
+
+  #response h2 {
+    margin: 12px 10px 0 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .wpcf7 form .wpcf7-response-output {
+    top: -20px;
+    left: -10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body.home {
+    height: 100%;
+    .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
